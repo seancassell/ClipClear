@@ -1,25 +1,52 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  ~ Copyright © 2016 Sean Cassell. Licenced under GPLv3.
+  ~     ClipCear - Exceedingly simple clipboard management app.
+  ~     Copyright © 2016 Sean Cassell.
+  ~
+  ~     Developer email: sean.cassell@outlook.com
+  ~
+  ~     This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <resources>
 
-	<!-- Base application theme. -->
+	<!-- Base application theme: -->
 	<style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
-		<item name="android:colorPrimary">@color/clipclear_Primary</item>
-		<item name="android:colorPrimaryDark">@color/clipclear_PrimaryDark</item>
-		<item name="android:colorAccent">@color/clipclear_Accent</item>
+		<item name="android:colorPrimary">@color/generic_White</item>
+		<item name="android:colorPrimaryDark">@color/generic_White</item>
+		<item name="android:colorAccent">@color/clipclear_AccentColor</item>
 		<item name="android:textColorPrimary">@color/clipclear_textPrimary</item>
 		<item name="android:textColorSecondary">@color/clipclear_textSecondary</item>
 		<item name="android:textColorPrimaryInverse">@color/clipclear_text_primary_inverse</item>
 		<item name="android:textColorSecondaryInverse">@color/clipclear_text_secondary_inverse</item>
 		<item name="android:colorBackground">@color/generic_White</item>
 		<item name="android:editTextBackground">@color/generic_White</item>
-
 		<item name="android:colorForeground">@color/generic_White</item>
-		<item name="android:navigationBarColor">@color/md_teal_900</item>
-		<item name="android:statusBarColor">@color/clipclear_PrimaryDark</item>
+		<item name="android:statusBarColor">@color/md_grey_150</item>
 		<item name="android:windowBackground">@color/generic_White</item>
+
+		<item name="android:actionBarStyle">@style/AppTheme.ActionBarStyle</item>
+	</style>
+
+	<!-- ActionBar style: -->
+	<style name="AppTheme.ActionBarStyle" parent="@android:style/Widget.Material.Light.ActionBar">
+		<item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleTextStyle</item>
+		<item name="android:background">@color/md_grey_100</item>
+	</style>
+
+	<!-- ActionBar sub-style (text colour): -->
+	<style name="AppTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+		<item name="android:textColor">@color/md_grey_700</item>
 	</style>
 
 </resources>
