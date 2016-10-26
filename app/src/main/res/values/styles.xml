@@ -1,0 +1,25 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright © 2016 Sean Cassell. Licenced under GPLv3.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+		<item name="android:colorPrimary">@color/clipclear_Primary</item>
+		<item name="android:colorPrimaryDark">@color/clipclear_PrimaryDark</item>
+		<item name="android:colorAccent">@color/clipclear_Accent</item>
+		<item name="android:textColorPrimary">@color/clipclear_textPrimary</item>
+		<item name="android:textColorSecondary">@color/clipclear_textSecondary</item>
+		<item name="android:textColorPrimaryInverse">@color/clipclear_text_primary_inverse</item>
+		<item name="android:textColorSecondaryInverse">@color/clipclear_text_secondary_inverse</item>
+		<item name="android:colorBackground">@color/generic_White</item>
+		<item name="android:editTextBackground">@color/generic_White</item>
+
+		<item name="android:colorForeground">@color/generic_White</item>
+		<item name="android:navigationBarColor">@color/md_teal_900</item>
+		<item name="android:statusBarColor">@color/clipclear_PrimaryDark</item>
+		<item name="android:windowBackground">@color/generic_White</item>
+	</style>
+
+</resources>

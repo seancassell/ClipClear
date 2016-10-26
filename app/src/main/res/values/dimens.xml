@@ -1,0 +1,16 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright © 2016 Sean Cassell. Licenced under GPLv3.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<resources>
+	<!-- Default screen margins: -->
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+
+	<!-- Default widget spacing: -->
+	<dimen name="widget_spacing_def">8dp</dimen>
+
+	<!-- Default text sizes: -->
+	<dimen name="text_size_title">24sp</dimen>
+	<dimen name="text_size_buttons">18sp</dimen>
+</resources>

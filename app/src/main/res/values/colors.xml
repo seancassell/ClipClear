@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- App-specific colours: -->
+	<color name="clipclear_Primary">#009688</color>
+	<color name="clipclear_PrimaryDark">#00796B</color>
+	<color name="clipclear_Accent">#FF9800</color>
+	<color name="clipclear_textPrimary">#212121</color>
+	<color name="clipclear_textSecondary">#757575</color>
+
+	<!-- Teal -->
+	<color name="md_teal_900">#004D40</color>
+
+	<!-- Generic colours: -->
+	<color name="generic_White">#FFFFFF</color>
+</resources>

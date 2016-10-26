@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright © 2016 Sean Cassell. Licenced under GPLv3.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_enabled="false" android:alpha="0.30" android:color="@color/clipclear_textPrimary"/>
+	<item android:color="@color/clipclear_textPrimary"/>
+</selector>

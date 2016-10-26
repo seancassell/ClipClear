@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright © 2016 Sean Cassell. Licenced under GPLv3.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<RelativeLayout
+	android:id="@+id/activity_main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="16dp"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+	android:paddingTop="16dp"
+	tools:context="net.seancassell.clipclear.MainActivity">
+
+	<TextView
+		android:id="@+id/lblInstructions"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginBottom="8dp"
+		android:text="Click to erase the system-wide clipboard:"
+		android:textSize="24sp" />
+
+	<Button
+		android:id="@+id/btnErase"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/lblInstructions"
+		android:layout_marginTop="8dp"
+		android:background="@color/clipclear_Primary"
+		android:textColor="@color/generic_White"
+		android:onClick="handleBtnEraseClick"
+		android:text="Erase Clipboard"
+		android:textAllCaps="false"
+		android:textSize="18sp" />
+</RelativeLayout>
