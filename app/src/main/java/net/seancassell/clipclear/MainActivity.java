@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 
 	public void handleBtnEraseClick (View view) {
 		Vibrator HAPTIC_SIM = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-		HAPTIC_SIM.vibrate(75);
+		HAPTIC_SIM.vibrate(50);
 		ClipboardManager clipMgr = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
 		clipMgr.setPrimaryClip(ClipData.newPlainText("", ""));
 		Toast.makeText(getApplicationContext(), "The clipboard has been successfully erased.", Toast.LENGTH_LONG).show();
