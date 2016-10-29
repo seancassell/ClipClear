@@ -42,6 +42,6 @@ public class MainActivity extends Activity {
 		HAPTIC_SIM.vibrate(50);
 		ClipboardManager clipMgr = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
 		clipMgr.setPrimaryClip(ClipData.newPlainText("", ""));
-		Toast.makeText(getApplicationContext(), "The clipboard has been successfully erased.", Toast.LENGTH_LONG).show();
+		Toast.makeText(getApplicationContext(), "The clipboard has been successfully erased.", Toast.LENGTH_SHORT).show();
 	}
 }
